@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es" translate="no">
+<head>
+  <title>CAMINO · Tráiler oficial</title>
+  <meta name="description" content="El tráiler de Camino Sánchez Álvarez — productora delegada y creativa. ¿Te gustaría conocerla?">
+  <!-- Miniatura al compartir. Cambia la URL si publicas el tráiler en otra ruta. -->
+  <meta property="og:type" content="video.other">
+  <meta property="og:title" content="CAMINO · Tráiler oficial">
+  <meta property="og:description" content="Productora delegada y creativa · narrativas transmedia. ¿Te gustaría conocerla?">
+  <meta property="og:image" content="https://kikomartinezquiro-max.github.io/Camino/trailer/og-trailer.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://kikomartinezquiro-max.github.io/Camino/trailer/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://kikomartinezquiro-max.github.io/Camino/trailer/og-trailer.jpg">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Archivo:wght@300;400;500;600;700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#000;color:#fff;font-family:'Archivo',sans-serif;-webkit-font-smoothing:antialiased;overflow:hidden}
+  .cmt-word{font-family:'Oswald',sans-serif}
+  @keyframes fhold{0%{opacity:0;transform:translateY(16px)}14%{opacity:1;transform:translateY(0)}80%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-10px)}}
+  @keyframes pop{0%{opacity:0;transform:scale(1.6);filter:blur(18px)}16%{opacity:1;transform:scale(1);filter:blur(0)}82%{opacity:1;transform:scale(1.05)}100%{opacity:0;transform:scale(1.09);filter:blur(5px)}}
+  @keyframes kenfade{0%{opacity:0;transform:scale(1.16)}14%{opacity:1;transform:scale(1.1)}80%{opacity:1;transform:scale(1.0)}100%{opacity:0;transform:scale(.98)}}
+  @keyframes appear{0%{opacity:0;transform:translateY(16px)}100%{opacity:1;transform:translateY(0)}}
+  @keyframes popStay{0%{opacity:0;transform:scale(1.45);filter:blur(14px)}60%{opacity:1;transform:scale(1);filter:blur(0)}100%{opacity:1;transform:scale(1)}}
+  @keyframes glow{0%,100%{opacity:.32}50%{opacity:.85}}
+  @keyframes glowGold{0%,100%{opacity:.25}50%{opacity:.7}}
+  @keyframes prog{0%{width:0}100%{width:100%}}
+  .cmt .anim{opacity:0}
+  .cmt.play .a1{animation:fhold 4.6s 1s both}
+  .cmt.play .a2{animation:fhold 4.8s 4.2s both}
+  .cmt.play .b0{animation:fhold 1.8s 9.6s both}
+  .cmt.play .bname{animation:pop 4.2s 10.2s both}
+  .cmt.play .bglow{animation:glow 4.2s 10.2s both}
+  .cmt.play .photo{animation:kenfade 12.5s 14.8s both}
+  .cmt.play .e1{animation:fhold 3.4s 15.8s both}
+  .cmt.play .e2{animation:fhold 3.4s 19.2s both}
+  .cmt.play .e3{animation:fhold 3.6s 22.6s both}
+  .cmt.play .t1{animation:fhold 3.4s 26.4s both}
+  .cmt.play .t2{animation:fhold 3.4s 30s both}
+  .cmt.play .t3{animation:fhold 3.8s 33.6s both}
+  .cmt.play .pre{animation:fhold 2.4s 38.4s both}
+  .cmt.play .gglow{animation:glowGold 18s 36s both}
+  .cmt.play .gname{animation:popStay 1.6s 40.4s forwards}
+  .cmt.play .ginv{animation:appear 1s 43.4s forwards}
+  .cmt.play .gnm{animation:appear 1s 46.4s forwards}
+  .cmt.play .gcta{animation:appear 1.1s 46.9s forwards}
+  .cmt.play .pfill{animation:prog 55s linear forwards}
+  .cmt.paused *{animation-play-state:paused !important}
+</style>
+</helmet>
+
+<div style="position:relative;width:100vw;height:100vh;background:#000;overflow:hidden">
+
+  <audio id="cmt-audio" src="camino-trailer-music.mp3" preload="auto"></audio>
+
+  <sc-if value="{{ showStage }}" hint-placeholder-val="{{ true }}">
+  <div class="{{ stageClass }}" style="position:absolute;inset:0;background:#000">
+
+    <div aria-hidden="true" class="cmt-word" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-weight:700;font-size:40vw;letter-spacing:-.03em;color:rgba(255,255,255,.02);white-space:nowrap;pointer-events:none;user-select:none">C</div>
+
+    <!-- SCENE A: hook -->
+    <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 8vw">
+      <div class="anim a1 cmt-word" style="font-weight:300;font-size:clamp(26px,4.4vw,58px);letter-spacing:.04em;color:#eaeaea;line-height:1.2">Hay quien cuenta historias.</div>
+      <div class="anim a2 cmt-word" style="font-weight:600;font-size:clamp(30px,5.2vw,72px);letter-spacing:.02em;color:#fff;line-height:1.15;margin-top:6px">Y hay quien las <span style="color:#E50914">hace vivir.</span></div>
+    </div>
+
+    <!-- SCENE B: name -->
+    <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+      <div class="anim bglow" aria-hidden="true" style="position:absolute;width:60vw;height:60vw;max-width:760px;max-height:760px;border-radius:50%;background:radial-gradient(circle,rgba(229,9,20,.45),transparent 62%);filter:blur(10px)"></div>
+      <div class="anim b0 cmt-word" style="font-weight:700;color:#E50914;letter-spacing:.5em;font-size:clamp(11px,1.5vw,16px);margin-bottom:14px">ATRESMEDIA · ORIGINAL</div>
+      <div class="anim bname cmt-word" style="font-weight:700;font-size:clamp(80px,17vw,260px);line-height:.84;letter-spacing:-.01em;text-shadow:0 0 60px rgba(229,9,20,.4)">CAMINO</div>
+    </div>
+
+    <!-- SCENE C: essence (her photo + scripted lines) -->
+    <div class="anim photo" style="position:absolute;inset:0">
+      <div style="position:absolute;inset:0;background:#0a0a0a url('camino-hd-bright.jpg') center 14%/cover"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.9),rgba(0,0,0,.12) 46%,rgba(0,0,0,.32)),linear-gradient(90deg,rgba(0,0,0,.32),transparent 55%)"></div>
+    </div>
+    <div style="position:absolute;left:0;right:0;bottom:15vh;text-align:center;padding:0 8vw">
+      <div class="anim e1 cmt-word" style="font-weight:400;font-size:clamp(30px,4.8vw,68px);letter-spacing:.01em;line-height:1.2;color:#f5f5f5">Detrás de cada proyecto,<br>hay una <span style="font-weight:700;color:#fff">creadora.</span></div>
+      <div class="anim e2 cmt-word" style="position:absolute;left:0;right:0;bottom:0;font-weight:400;font-size:clamp(30px,4.8vw,68px);letter-spacing:.01em;line-height:1.2;color:#f5f5f5;padding:0 8vw">Detrás de cada sueño,<br>alguien que le da <span style="font-weight:700;color:#fff">forma.</span></div>
+      <div class="anim e3 cmt-word" style="position:absolute;left:0;right:0;bottom:0;font-weight:400;font-size:clamp(30px,4.8vw,68px);letter-spacing:.01em;line-height:1.2;color:#f5f5f5;padding:0 8vw">Y que también se atreve<br>a crear <span style="font-weight:700;color:#E50914">los suyos.</span></div>
+    </div>
+
+    <!-- SCENE D: the turn (on black, gold) -->
+    <div class="anim gglow" aria-hidden="true" style="position:absolute;inset:0;background:radial-gradient(70% 60% at 50% 55%,rgba(240,180,41,.14),transparent 70%);pointer-events:none"></div>
+    <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 8vw">
+      <div class="anim t1 cmt-word" style="font-weight:400;font-size:clamp(32px,5.2vw,74px);letter-spacing:.01em;line-height:1.22;color:#f5f5f5">Por eso, ahora Camino<br>elige el <span style="font-weight:700;color:#f0b429">Sur.</span></div>
+    </div>
+    <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 8vw">
+      <div class="anim t2 cmt-word" style="font-weight:400;font-size:clamp(32px,5.2vw,74px);letter-spacing:.01em;line-height:1.22;color:#f5f5f5">Porque en el Sur<br>habita la <span style="font-weight:700;color:#f0b429">luz.</span></div>
+    </div>
+    <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 8vw">
+      <div class="anim t3 cmt-word" style="font-weight:400;font-size:clamp(26px,4.2vw,58px);letter-spacing:.01em;line-height:1.3;color:#efefef;max-width:17ch">La luz que necesita para dar vida a nuevos <span style="font-weight:700;color:#f0b429">retos.</span></div>
+    </div>
+    <!-- SCENE E: first-person climax -->
+    <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 8vw">
+      <div class="anim pre cmt-word" style="font-weight:500;font-size:clamp(24px,3.4vw,46px);letter-spacing:.04em;color:#f0f0f0;margin-bottom:8px">Por eso, ahora elijo…</div>
+      <div class="anim gname cmt-word" style="font-weight:700;font-size:clamp(60px,13vw,200px);line-height:.84;color:#f0b429;text-shadow:0 0 70px rgba(240,180,41,.38)">SEVILLA</div>
+      <div class="anim ginv cmt-word" style="font-weight:300;font-size:clamp(22px,3vw,40px);letter-spacing:.02em;color:#f3f3f3;margin-top:22px;max-width:24ch;line-height:1.35">¿Te gustaría <span style="font-weight:600;color:#fff">conocerme</span> y trabajar juntos?</div>
+      <div class="anim gnm cmt-word" style="font-weight:300;font-size:clamp(16px,2.3vw,26px);letter-spacing:.05em;color:#e8e8e8;margin-top:18px;max-width:640px">Camino Sánchez Álvarez · productora delegada y creativa · narrativas transmedia</div>
+      <div class="anim gcta" style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:26px">
+        <a href="{{ ghUrl }}" target="_blank" rel="noopener noreferrer" class="cmt-word" style="background:#fff;color:#0a0a0a;text-decoration:none;padding:15px 30px;border-radius:6px;font-weight:600;font-size:18px;letter-spacing:.02em">▶ Conoce a Camino</a>
+        <a href="{{ waUrl }}" target="_blank" rel="noopener noreferrer" class="cmt-word" style="background:#f0b429;color:#1a1205;text-decoration:none;padding:15px 28px;border-radius:6px;font-weight:600;font-size:18px;letter-spacing:.02em">Escríbele por WhatsApp</a>
+        <a href="mailto:caminosanchezalvarez@gmail.com" class="cmt-word" style="background:transparent;color:#fff;text-decoration:none;border:1px solid #5a4a20;padding:15px 26px;border-radius:6px;font-weight:600;font-size:18px">Email</a>
+      </div>
+    </div>
+
+    <!-- letterbox + vignette -->
+    <div aria-hidden="true" style="position:absolute;top:0;left:0;right:0;height:6vh;background:#000;z-index:30"></div>
+    <div aria-hidden="true" style="position:absolute;bottom:0;left:0;right:0;height:6vh;background:#000;z-index:30"></div>
+    <div aria-hidden="true" style="position:absolute;inset:0;z-index:29;pointer-events:none;box-shadow:inset 0 0 200px 40px rgba(0,0,0,.7)"></div>
+
+    <!-- IDLE OVERLAY -->
+    <sc-if value="{{ isIdle }}" hint-placeholder-val="{{ true }}">
+      <div style="position:absolute;inset:0;z-index:40;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:radial-gradient(120% 100% at 50% 40%,#1a0406,#000 70%);cursor:pointer" onClick="{{ start }}">
+        <div class="cmt-word" style="font-weight:700;color:#E50914;letter-spacing:.5em;font-size:14px;margin-bottom:18px">ATRESMEDIA · ORIGINAL</div>
+        <div class="cmt-word" style="font-weight:700;font-size:clamp(60px,12vw,180px);line-height:.86;margin-bottom:26px">CAMINO</div>
+        <button onClick="{{ start }}" style="display:flex;align-items:center;gap:14px;background:#fff;color:#0a0a0a;border:none;padding:16px 38px;border-radius:7px;font-family:'Oswald',sans-serif;font-weight:600;font-size:22px;letter-spacing:.03em;cursor:pointer">▶ Reproducir tráiler</button>
+        <div class="cmt-word" style="margin-top:22px;font-weight:300;font-size:15px;letter-spacing:.08em;color:#bdbdbd">Sube el volumen para la experiencia completa &nbsp;🔊</div>
+      </div>
+    </sc-if>
+
+    <!-- CONTROLS -->
+    <sc-if value="{{ isPlaying }}" hint-placeholder-val="{{ false }}">
+      <div style="position:absolute;left:0;right:0;bottom:0;z-index:50;padding:0 26px 14px;display:flex;flex-direction:column;gap:10px">
+        <div style="height:3px;background:rgba(255,255,255,.18);border-radius:2px;overflow:hidden"><div class="pfill" style="height:100%;width:0;background:#E50914"></div></div>
+        <div style="display:flex;align-items:center;gap:18px">
+          <button onClick="{{ togglePause }}" title="Pausa / Reproducir" style="background:none;border:none;color:#fff;font-size:20px;cursor:pointer;width:30px">{{ pauseIcon }}</button>
+          <button onClick="{{ toggleMute }}" title="Sonido" style="background:none;border:none;color:#fff;font-size:18px;cursor:pointer;width:30px">{{ muteIcon }}</button>
+          <div style="flex:1"></div>
+          <button onClick="{{ skip }}" class="cmt-word" style="background:none;border:1px solid rgba(255,255,255,.3);color:#ddd;font-size:13px;letter-spacing:.08em;cursor:pointer;padding:6px 14px;border-radius:4px">SALTAR ⏭</button>
+        </div>
+      </div>
+    </sc-if>
+
+  </div>
+  </sc-if>
+
+  <!-- FINALE -->
+  <sc-if value="{{ isFinale }}" hint-placeholder-val="{{ false }}">
+    <div style="position:absolute;inset:0;z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:7vh 8vw;background:radial-gradient(120% 130% at 50% 18%,#241a05 0%,#120a02 52%,#000 88%)">
+      <div class="cmt-word" style="font-weight:700;font-size:clamp(60px,13vw,200px);line-height:.84;color:#f0b429;text-shadow:0 0 70px rgba(240,180,41,.32)">SEVILLA</div>
+      <div class="cmt-word" style="font-weight:300;font-size:clamp(22px,3vw,40px);letter-spacing:.02em;color:#f3f3f3;margin-top:22px;max-width:24ch;line-height:1.35">¿Te gustaría <span style="font-weight:600;color:#fff">conocerme</span> y trabajar juntos?</div>
+      <div class="cmt-word" style="font-weight:300;font-size:clamp(16px,2.3vw,26px);letter-spacing:.05em;color:#e8e8e8;margin-top:18px;max-width:640px">Camino Sánchez Álvarez · productora delegada y creativa · narrativas transmedia</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:30px">
+        <a href="{{ ghUrl }}" target="_blank" rel="noopener noreferrer" class="cmt-word" style="background:#fff;color:#0a0a0a;text-decoration:none;padding:15px 30px;border-radius:6px;font-weight:600;font-size:18px">▶ Conoce a Camino</a>
+        <a href="{{ waUrl }}" target="_blank" rel="noopener noreferrer" class="cmt-word" style="background:#f0b429;color:#1a1205;text-decoration:none;padding:15px 28px;border-radius:6px;font-weight:600;font-size:18px">Escríbele por WhatsApp</a>
+        <a href="mailto:caminosanchezalvarez@gmail.com" class="cmt-word" style="background:transparent;color:#fff;text-decoration:none;border:1px solid #5a4a20;padding:15px 26px;border-radius:6px;font-weight:600;font-size:18px">Email</a>
+      </div>
+      <button onClick="{{ replay }}" class="cmt-word" style="margin-top:32px;background:none;border:none;color:#bdbdbd;font-size:15px;letter-spacing:.08em;cursor:pointer">⟲ Volver a ver el tráiler</button>
+    </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { phase: 'idle', paused: false, muted: false };
+  T = 55;
+
+  audioEl() { return document.getElementById('cmt-audio'); }
+
+  componentWillUnmount() { const a = this.audioEl(); if (a) a.pause(); clearTimeout(this._end); clearInterval(this._fade); }
+
+  playAudio() {
+    const a = this.audioEl(); if (!a) return;
+    clearInterval(this._fade);
+    try { a.currentTime = 0; } catch (e) {}
+    a.muted = this.state.muted; a.volume = 1;
+    const p = a.play(); if (p && p.catch) p.catch(() => {});
+  }
+  pauseAudio() { const a = this.audioEl(); if (a) a.pause(); }
+  resumeAudio() { const a = this.audioEl(); if (a) { const p = a.play(); if (p && p.catch) p.catch(() => {}); } }
+  fadeAudioOut() {
+    const a = this.audioEl(); if (!a) return;
+    clearInterval(this._fade);
+    let v = a.volume;
+    this._fade = setInterval(() => { v -= 0.07; if (v <= 0) { v = 0; a.pause(); clearInterval(this._fade); } a.volume = Math.max(0, v); }, 55);
+  }
+
+  start() {
+    clearInterval(this._fade); clearTimeout(this._end);
+    this.setState({ phase: 'playing', paused: false });
+    this.playAudio();
+    this._t0 = performance.now();
+    this._end = setTimeout(() => this.toFinale(), this.T * 1000);
+  }
+  togglePause() {
+    if (this.state.phase !== 'playing') return;
+    const p = !this.state.paused;
+    this.setState({ paused: p });
+    if (p) {
+      this._remain = this.T * 1000 - (performance.now() - this._t0);
+      clearTimeout(this._end);
+      this.pauseAudio();
+    } else {
+      this._t0 = performance.now() - (this.T * 1000 - this._remain);
+      this._end = setTimeout(() => this.toFinale(), Math.max(0, this._remain));
+      this.resumeAudio();
+    }
+  }
+  toFinale() { clearTimeout(this._end); this.setState({ phase: 'finale', paused: false }); }
+  skip() { clearTimeout(this._end); this.setState({ phase: 'finale', paused: false }); }
+  replay() { this.start(); }
+  toggleMute() { const m = !this.state.muted; this.setState({ muted: m }); const a = this.audioEl(); if (a) a.muted = m; }
+
+  renderVals() {
+    const { phase, paused, muted } = this.state;
+    return {
+      showStage: phase === 'idle' || phase === 'playing',
+      isIdle: phase === 'idle',
+      isPlaying: phase === 'playing',
+      isFinale: phase === 'finale',
+      stageClass: 'cmt' + (phase === 'playing' ? ' play' : '') + (paused ? ' paused' : ''),
+      pauseIcon: paused ? '▶' : '⏸',
+      muteIcon: muted ? '🔇' : '🔊',
+      ghUrl: 'https://kikomartinezquiro-max.github.io/Camino/',
+      waUrl: 'https://wa.me/34660194194?text=Hola%20Camino%2C%20he%20visto%20tu%20tr%C3%A1iler%20y%20me%20encantar%C3%ADa%20conocerte.',
+      start: () => this.start(),
+      togglePause: () => this.togglePause(),
+      replay: () => this.replay(),
+      skip: () => this.skip(),
+      toggleMute: () => this.toggleMute(),
+    };
+  }
+}
+</script>
+</body>
+</html>
