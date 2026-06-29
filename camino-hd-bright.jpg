@@ -1,0 +1,35 @@
+TRÁILER DE CAMINO — versión autónoma (se ve en cualquier sitio)
+==============================================================
+
+Esta versión es UN SOLO HTML que no necesita ningún motor: se renderiza
+igual en PC, móvil y dentro de WhatsApp. Sustituye a la anterior.
+
+⚠️ IMPORTANTE SOBRE LA DIRECCIÓN
+   Antes te salía mal porque estabas abriendo  .../Camino-trailer/  (un repo
+   aparte que quedó corrupto). La buena es:  .../Camino/trailer/
+
+PASOS (recomendado: dentro de tu repo "Camino", en una carpeta "trailer")
+-------------------------------------------------------------------------
+1. Si creaste un repo "Camino-trailer", bórralo o ignóralo (daba problemas).
+2. Esta carpeta se llama "trailer". En tu repo "Camino": Add file -> Upload files.
+3. Si ya había una carpeta "trailer" antigua, primero borra su contenido.
+4. Arrastra ESTA carpeta "trailer" entera (o sus archivos dentro de trailer/).
+5. Commit changes. Espera 1-2 minutos.
+
+Quedará publicado en:
+   https://kikomartinezquiro-max.github.io/Camino/trailer/
+
+COMPROBAR
+---------
+- Abre esa URL en el móvil: debe salir CAMINO + botón "Reproducir" (NO código).
+- Pulsa play y sube el volumen.
+
+MINIATURA AL COMPARTIR
+----------------------
+Tras publicar, en developers.facebook.com/tools/debug/ pega
+   https://kikomartinezquiro-max.github.io/Camino/trailer/
+y pulsa "Volver a extraer". (Si tarda, prueba con .../trailer/?v=1)
+
+Contenido (todo junto, al mismo nivel): index.html, camino-trailer-music.mp3,
+camino-hd-bright.jpg, og-trailer.jpg. La música y la foto DEBEN ir junto al
+index.html o no se verán/oirán.
